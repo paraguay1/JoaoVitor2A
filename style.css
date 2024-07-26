@@ -1,0 +1,77 @@
+*{
+    margin: 1%;
+    padding: 0%;
+}
+
+body{
+    background-color: #c6feff;
+    font-family: 'Sono', sans-serif;
+    }
+
+    .cabecalho{
+    background-color: #5fd3e5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-size: 55px;
+    border-radius: 10px;
+    }
+    .cabecalho_titulo{
+    display: inline;
+    }
+
+    .cabecalho_imagem{
+    width: 280px;
+    height:198px;
+    border-radius: 30px;
+    }
+
+    .cidade{
+        display: flex;
+        background-color: #5fd3e5;
+        justify-content: space-around;
+        align-items:normal;
+        margin: 20px;
+        border-radius: 10px;
+        text-align: justify;
+    }
+
+    p.fotos_div-paragrafo{
+        width: 224px;
+        justify-items:flex;
+        text-align: justify;
+    }
+
+    .fotos_div-titulo{
+        text-align: center;
+    }
+
+    .fotos_div-titulo {
+        align-items:center;
+    }
+
+    .fotos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        background-color: #5fd3e5;
+        justify-items: center;
+        gap:50px;
+        margin: 1%;
+        padding: 1%;
+    } 
+   
+    .fotos_div-imagem{
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    
+    .rodape{
+        background-color:#5fd3e5;
+        border-radius: 10px;
+    }
+
+    p.rodape{
+        display:block;
+    }
